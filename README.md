@@ -81,12 +81,19 @@ MODEL_PATH = 'MODEL_NAME.model'
 python Deploy_DQNmodel.py
 ```
 ---
-### NOTE
+### NOTE:
+
+This model was trained on a Laptop with:
+- Windows 10 64bit 
+- Nvidia GTX 1060 6GB VRAM
+- 16 GB RAM 
+- 1 TB HDD
+
 **A newer, better version using PyTorch and a reliable Deep Learning Architecture is in the works. Will keep you posted. Thanks!**
 
 ---
 
-**NOTE**
+**NOTE:**
 
 This project was heavily inspired by [pythonprogramming.net](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/) tutorial.
 
