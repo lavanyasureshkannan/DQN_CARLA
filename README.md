@@ -65,6 +65,8 @@ Refer Conda documentation [here](https://docs.anaconda.com/anaconda/user-guide/t
 ```
 python train_model.py
 ```
+![Training_video](https://github.com/lavanyasureshkannan/DQN_CARLA/blob/main/Outputs/carla_training_video.gif)
+
 8. The best trained model will be stored in ../PythonAPI/examples/models directory that gets created when the model starts training.
 ## DEPLOY TRAINED MODEL
 
