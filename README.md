@@ -79,11 +79,14 @@ MODEL_PATH = 'MODEL_NAME.model'
 python Deploy_DQNmodel.py
 ```
 ---
-## NOTE
+### NOTE
 **A newer, better version using PyTorch and a reliable Deep Learning Architecture is in the works. Will keep you posted. Thanks!**
 
 ---
+
 **NOTE**
+
 This project was heavily inspired by [pythonprogramming.net](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/) tutorial.
+
 ---
 [Read Carla Documentation](https://carla.readthedocs.io/en/latest/)
