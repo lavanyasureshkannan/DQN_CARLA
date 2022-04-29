@@ -15,14 +15,14 @@ Lavanya Suresh Krishnan
 ## Requirements
 ---
 - Carla Simulator Windows/Ubuntu (This Project was executed in Windows and it is more easier to boot Carla in Win than Ubuntu)
-- A virtual environment Load with:
-- Python 3.7
-- TensorFlow 1.15.0 
-- Keras 2.2.4
-- Pygame
-- Opencv
-- TQDM
-- Math
+- A virtual environment loaded with:
+   - Python 3.7
+   - TensorFlow 1.15.0 
+   - Keras 2.2.4
+   - Pygame
+   - Opencv
+   - TQDM
+   - Math
 ---
 
 ## Best Practice
@@ -32,9 +32,11 @@ While creating a new virtual environment using conda create
 
   **Create environment with tensorflow this will import and install required dependencies especially Numpy and Backend Estimators** 
 
-  > conda create -n your-env-name tensorflow-gpu
+  ```
+  conda create -n your-env-name tensorflow-gpu
   
-  > conda activate your-env-name
+  conda activate your-env-name 
+  ```
  
 Refer Conda documentation [here](https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/)
 
@@ -53,13 +55,15 @@ Refer Conda documentation [here](https://docs.anaconda.com/anaconda/user-guide/t
    For Ubuntu:
     Form terminal run the /.sh
 3. Download the python DQN train and model deploy scripts from the Legacy Version directory
-4. Paste the two python scripts in 
+4. Paste the two python scripts in
+ 
     > carla_simulator_directory/PythonAPI/examples
+    
 5. Open the virtual environment command prompt (here Anaconda prompt)
 6. Cd to the carla/PythonAPI/examples directory.
 7. To Train the Model type
 ```
-  python train_model.py
+python train_model.py
 ```
 8. The best trained model will be stored in ../PythonAPI/examples/models directory that gets created when the model starts training.
 ## DEPLOY TRAINED MODEL
@@ -74,11 +78,12 @@ MODEL_PATH = 'MODEL_NAME.model'
 ```
 python Deploy_DQNmodel.py
 ```
-
+---
+## NOTE
+**A newer, better version using PyTorch and a reliable Deep Learning Architecture is in the works. Will keep you posted. Thanks!**
 
 ---
 **NOTE**
-
 This project was heavily inspired by [pythonprogramming.net](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/) tutorial.
-
 ---
+[Read Carla Documentation](https://carla.readthedocs.io/en/latest/)
