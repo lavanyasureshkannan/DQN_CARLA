@@ -6,7 +6,7 @@
 Akhilrajan Vethirajan
 [v.akhilrajan@gmail.com](https://github.com/Akhilrajan-V) 
 
-Lavanya Suresh Krishnan
+Lavanya Suresh Kannan
 
 ## 
 ![output](https://github.com/lavanyasureshkannan/DQN_CARLA/blob/main/Outputs/simulation.gif)
