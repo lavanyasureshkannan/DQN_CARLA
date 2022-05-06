@@ -95,7 +95,4 @@ This model was trained on a Laptop with:
 
 **NOTE:**
 
-This project was heavily inspired by [pythonprogramming.net](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/) tutorial.
-
----
 [Read Carla Documentation](https://carla.readthedocs.io/en/latest/)
